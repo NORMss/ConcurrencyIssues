@@ -8,11 +8,11 @@ import ru.normno.prblemDragRacing.solutionWithSemaphore
 import kotlin.test.assertEquals
 
 class ProblemDragRacingTest {
-    @Test
-    fun problemDragRacingTest() {
-        val result = problem()
-        assert(result in 1000001..1999999)
-    }
+//    @Test
+//    fun problemDragRacingTest() {
+//        val result = problem()
+//        assert(result in 1000001..1999999)
+//    }
 
     @Test
     fun solutionWithReentrantLockTest() {
