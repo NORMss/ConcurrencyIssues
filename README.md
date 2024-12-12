@@ -1,5 +1,7 @@
 # Concurrency Issues
 
+### [Ru](./README_RU.md)/En version of README
+
 ### Problem "Drag racing"
 Find a way to always end up with 2_000_000.
 The [provided code](./src/main/kotlin/prblemDragRacing/problem.kt) demonstrates a concurrency issue known as a **race condition**.
@@ -24,6 +26,8 @@ A **race condition** occurs when the correctness of a program depends on the tim
 ### Problem "Pass me some water"
 Explain in your own words why the application freezes. The provided code demonstrates a concurrency issue known as a deadlock.
 #### Explanation of the Problem
+![image](https://github.com/user-attachments/assets/15378405-5291-4751-938a-762431412e51)
+
 #### Key Concept: Deadlock
 A **deadlock** occurs when two or more threads:
 1. Acquire different locks.
