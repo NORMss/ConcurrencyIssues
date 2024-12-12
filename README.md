@@ -22,5 +22,13 @@ A **race condition** occurs when the correctness of a program depends on the tim
 3. Use [Semaphore](./src/main/kotlin/prblemDragRacing/solutionWithSemaphore.kt)
 
 ### Problem "Pass me some water"
-Explain in your own words why the application freezes.
-### Solution
+Explain in your own words why the application freezes. The provided code demonstrates a concurrency issue known as a deadlock.
+#### Explanation of the Problem
+#### Key Concept: Deadlock
+A **deadlock** occurs when two or more threads:
+1. Acquire different locks.
+2. Each thread waits for another to release its lock.
+3. No thread can proceed, as all are waiting indefinitely.
+#### Solution
+1. **[Global Locking Order](./src/main/kotlin/problemPassMeSomeWater/solution.kt)**:
+   Ensure that both threads acquire locks in the same order
